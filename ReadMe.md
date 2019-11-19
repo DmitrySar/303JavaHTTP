@@ -13,7 +13,7 @@
 >     return new Scanner(new URL(url).openStream(), codePage).useDelimiter("\\A").next();
 > }
 > ```  
-> ***Для определения времени выполнения использовать метод urrentTimeMillis():***  
+> ***Для определения времени выполнения использовать метод currentTimeMillis():***  
 > ```java
 > ...
 >     long startTime = System.currentTimeMillis();
